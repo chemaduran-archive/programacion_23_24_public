@@ -1,5 +1,7 @@
 package U5_herencia_interfaces.teoria.ejemplo_persona;
 
+import java.util.Objects;
+
 public class Persona {
   protected int dni;
   String nombre;
@@ -34,13 +36,8 @@ public class Persona {
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
-    if (!(o instanceof Persona)) return false;
+    if (o == null || getClass() != o.getClass()) return false;
     Persona persona = (Persona) o;
-    return this.dni == persona.dni && this.nombre.equals(persona.nombre);
-  }
-
-  @Override
-  public int hashCode() {
-    return 0;
+    return dni == persona.dni && Objects.equals(nombre, persona.nombre);
   }
 }

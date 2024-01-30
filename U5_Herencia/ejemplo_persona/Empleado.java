@@ -1,5 +1,7 @@
 package U5_herencia_interfaces.teoria.ejemplo_persona;
 
+import java.util.Objects;
+
 public class Empleado extends Persona {
   double salario;
   String estatura = "";
@@ -38,8 +40,9 @@ public class Empleado extends Persona {
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
-    if (!(o instanceof Empleado)) return false;
+    if (o == null || getClass() != o.getClass()) return false;
+    if (!super.equals(o)) return false;
     Empleado empleado = (Empleado) o;
-    return this.dni == empleado.dni && this.nombre.equals(empleado.nombre);
+    return Double.compare(salario, empleado.salario) == 0;
   }
 }
