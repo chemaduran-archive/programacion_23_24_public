@@ -15,6 +15,6 @@ public class Principal {
     // Este comportamiento que acabamos de ver, es lo que se llama
     // POLIMORFISMO: `Polys`, que significa varios, y `Morfo`, que
     // significa `forma`. Es decir, tiene varias formas de comportamiento
-    // según el tipo original que sea.
+    // según el tipo original que sea, se ejecutará un método u otro.
   }
 }
