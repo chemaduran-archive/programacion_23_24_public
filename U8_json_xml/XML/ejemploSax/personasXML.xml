@@ -1,0 +1,14 @@
+<personas info="personas" otro="ejemplo">
+    <persona id="1">
+        <nombre>Pepe</nombre>
+        <edad>14</edad>
+    </persona>
+    <persona id="2">
+        <nombre>María</nombre>
+        <edad>51</edad>
+    </persona>
+    <persona id="3">
+        <nombre>Raul</nombre>
+        <edad>22</edad>
+    </persona>
+</personas>
