@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pedidos>
+    <pedido id="1">
+        <nombreProducto>Papel Higiénico</nombreProducto>
+        <fecha>25/03/2020</fecha>
+        <precio>100</precio>
+        <cantidad>1000</cantidad>
+    </pedido>
+    <pedido id="2">
+        <nombreProducto>Lejía</nombreProducto>
+        <fecha>25/03/2020</fecha>
+        <precio>50</precio>
+        <cantidad>3</cantidad>
+    </pedido>
+    <pedido id="3">
+        <nombreProducto>Gel de manos</nombreProducto>
+        <fecha>25/03/2020</fecha>
+        <precio>75</precio>
+        <cantidad>5</cantidad>
+    </pedido>
+    <pedido id="4">
+        <nombreProducto>Guantes de goma</nombreProducto>
+        <fecha>25/03/2020</fecha>
+        <precio>125</precio>
+        <cantidad>100</cantidad>
+    </pedido>
+</pedidos>
